@@ -43,11 +43,11 @@ describe("Test Contact Us form WebdriverUni", () => {
     let validateSubmissionHeader = browser.waitUntil(() => {
       return (
         $(successfulSubmissionSelector).getText() ==
-          "Thank You for your Message!",
+        "Thank You for your Message!" /* ,
         {
           timeout: 5000,
           timeoutMsg: "error1",
-        }
+        } */
       );
     });
     console.log(validateSubmissionHeader);
@@ -61,11 +61,11 @@ describe("Test Contact Us form WebdriverUni", () => {
     let validateSubmissionHeader = browser.waitUntil(() => {
       return (
         $(unsuccessfulSubmissionSelector).getText() ==
-          "Error: all fields are required",
+        "Error: all fields are required" /* ,
         {
           timeout: 6000,
           timeoutMsg: "error2",
-        }
+        } */
       );
     });
     console.log(validateSubmissionHeader);
