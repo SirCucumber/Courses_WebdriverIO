@@ -1,0 +1,28 @@
+{
+  "name": "webdriverioframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/dot-reporter": "^7.3.0",
+    "@wdio/local-runner": "^7.3.0",
+    "@wdio/mocha-framework": "^7.3.0",
+    "@wdio/selenium-standalone-service": "^7.3.0",
+    "@wdio/sync": "^7.3.0",
+    "chai": "^4.3.4",
+    "selenium-standalone": "^6.23.0",
+    "sync-request": "^6.1.0",
+    "webdriverio": "^7.3.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "@wdio/cli": "^7.3.0",
+    "save-dev": "*",
+    "wdio-selenium-standalone-service": "^0.0.12"
+  }
+}
